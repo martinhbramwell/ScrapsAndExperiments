@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+ xmlns:g='urn:import:com.google.gwt.user.client.ui'
+ xmlns:c="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+		.panel {
+			background-color: ivory;
+		}
+		 .cellTable {
+      width: 600px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+	</ui:style>
+
+		<g:VerticalPanel styleName="{style.panel}">
+			<g:VerticalPanel/>
+			<g:HorizontalPanel>
+				<g:InlineLabel text="Nombre"/>
+				<g:TextBox ui:field="nombreInput"/>
+			</g:HorizontalPanel>
+			<g:Button text="Buscar" ui:field="botonBuscar"></g:Button>
+				<g:VerticalPanel>
+				<c:CellTable
+	            addStyleNames='{style.cellTable}'
+	            pageSize='3'
+	            ui:field='provincias' />
+	            <c:SimplePager          
+	            ui:field='paginador' />
+			</g:VerticalPanel>
+			
+		</g:VerticalPanel>
+</ui:UiBinder>

@@ -1,0 +1,10 @@
+insert into provincia (id,nombre) values (1, 'La Pampa');
+insert into provincia (id,nombre) values (2, 'Tucumán');
+insert into provincia (id,nombre) values (3, 'La Rioja');
+insert into provincia (id,nombre) values (4, 'Buenos Aires');
+insert into provincia (id,nombre) values (5, 'Capital Federal');
+insert into provincia (id,nombre) values (6, 'Salta');
+insert into provincia (id,nombre) values (7, 'Formosa');
+insert into provincia (id,nombre) values (8, 'Chubut');
+insert into provincia (id,nombre) values (9, 'Rio Negro');
+insert into provincia (id,nombre) values (10, 'Tierra del Fuego');
